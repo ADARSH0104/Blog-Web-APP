@@ -1,0 +1,12 @@
+<%- include("includes/head.ejs") %>
+<body>
+    <h1>Blog</h1>
+    <div class="post-container">
+        <h2>@<%= post.username %> </h2>
+            <form method="post" action="/posts/<%= post.id %>?_method=PATCH">
+            <textarea name ="content"><%= post.content %></textarea>
+    
+                <button class="save op">Save</button>
+            </form>
+        </div>
+</body>

@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding:0px;
+
+}
+body{
+    background-color: rgb(41, 40, 40);  
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    height: 100vh;
+    width: 100 vmin;
+
+}
+h1{
+    background-color: black;
+    color:white;
+    width: 100%vmin;
+    margin: 0%;
+    padding: 10px;
+    height: 50px;
+
+}
+.post-container{
+    background-color: rgb(0, 0, 0);
+    border : 1px solid;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.post-conatiner p{
+    padding-top: 10px;
+    padding: 10px;
+}
+ /* .btn{
+    background-color: black;
+    color: white;
+    border:2px dotted;
+    border-radius:20px;
+    padding:10px ;
+    font-size: 15px;
+    margin: 5px;
+} */
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius:20px;
+    box-shadow:5px 5px 5px rgba(97, 96, 96, 0.5);
+}
+ /* form{ 
+ margin: 5px;
+ } */
+input{
+    height: 50px;
+    background-color: black;
+    color: white;
+    border:1px dotted;
+    border-radius:20px;
+    width: 97%;
+    padding:10px ;
+    font-size: 2rem;
+    margin: 10px;
+
+}
+textarea{
+    background-color: black;
+    color: white;
+    border:1px dotted;
+    border-radius:20px;
+    width: 97%;
+    padding:10px ;
+    font-size: 2rem;
+    margin: 10px;
+    height: 200px;
+}
+
+/* .icon{
+    height: 100px;
+    width: 10px;
+} */
+/* .bi{
+    align-items: center;
+} */
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #ffffff;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center; 
+    padding: 10px;
+}
+
+.btn svg {
+    margin-right: 8px;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-weight: bold;
+}
+.op{
+    background: black;
+    border: 2px solid;
+    cursor: pointer;   
+    font-size: 2rem;
+    width: 99%;
+    background-color: rgb(0, 0, 0);
+    /* border : 1px solid; */
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.op:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius:10px;
+    box-shadow:5px 5px 5px rgba(97, 96, 96, 0.5);
+}
+p{
+    font-size: 1rem;
+    margin: 10px;
+}
