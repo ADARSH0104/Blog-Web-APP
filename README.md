@@ -12,3 +12,12 @@ Key Features:
 4)View Posts: All posts are displayed in an organized manner on the main page, with options to view each post individually. The posts are styled with CSS to ensure readability and a pleasant user experience.
 
 The app is built using Node.js and Express.js for the backend, providing a robust and scalable foundation. EJS is used for templating, allowing dynamic content rendering. CSS is employed for the styling, with a minimalist design that focuses on clarity and ease of use.
+
+Instructions to Set Up and Start the Server
+1.Navigate to the Project Directory
+Change to the project directory by running:cd <project-directory>
+2.Install Node Modules
+Before starting the server, you need to install the required Node modules. Run the following command in your terminal:
+npm install
+3.Start the Server
+After the installation is complete, you can start the server by running:node index.js
