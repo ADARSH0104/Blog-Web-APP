@@ -17,8 +17,10 @@ Instructions to Set Up and Start the Server
 
 1.Navigate to the Project Directory
 Change to the project directory by running:cd <project-directory>
+
 2.Install Node Modules
 Before starting the server, you need to install the required Node modules. Run the following command in your terminal:
 npm install
+
 3.Start the Server
 After the installation is complete, you can start the server by running:node index.js
