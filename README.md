@@ -16,7 +16,7 @@ The app is built using Node.js and Express.js for the backend, providing a robus
 Instructions to Set Up and Start the Server
 
 1.Navigate to the Project Directory
-Change to the project directory by running:cd <project-directory>
+Change to the project directory by running:cd project-directory
 
 2.Install Node Modules
 Before starting the server, you need to install the required Node modules. Run the following command in your terminal:
